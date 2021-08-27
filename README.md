@@ -7,3 +7,8 @@ Accessing theme:
 ```
 open $(bundle info --path minima)
 ```
+
+## Deployment
+```
+jekyll build && cd _site && cp -R . ../../thelitdeveloper.github.io/
+```
