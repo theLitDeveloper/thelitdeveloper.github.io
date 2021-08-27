@@ -1,3 +1,9 @@
 
-bundle exec jekyll serve
+## Run local server
+bundle exec jekyll serve --livereload
 
+## Customize default theme minima
+Accessing theme:
+```
+open $(bundle info --path minima)
+```
