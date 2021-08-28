@@ -6,6 +6,7 @@
 <title>Add Prometheus support to your Golang app | the lit developer</title>
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Add Prometheus support to your Golang app" />
+<meta name="author" content="Stephan Schrader" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Prometheus requires its own /metrics endpoint to, you guessed it, grab metrics from your app. Fortunately, the basic integration is done in a few steps." />
 <meta property="og:description" content="Prometheus requires its own /metrics endpoint to, you guessed it, grab metrics from your app. Fortunately, the basic integration is done in a few steps." />
@@ -17,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Add Prometheus support to your Golang app" />
 <script type="application/ld+json">
-{"dateModified":"2020-04-09T07:24:03+02:00","datePublished":"2020-04-09T07:24:03+02:00","description":"Prometheus requires its own /metrics endpoint to, you guessed it, grab metrics from your app. Fortunately, the basic integration is done in a few steps.","mainEntityOfPage":{"@type":"WebPage","@id":"https://thelitdeveloper.com/golang/2020/04/09/golang-service-w-prometheus.html"},"url":"https://thelitdeveloper.com/golang/2020/04/09/golang-service-w-prometheus.html","@type":"BlogPosting","headline":"Add Prometheus support to your Golang app","@context":"https://schema.org"}</script>
+{"description":"Prometheus requires its own /metrics endpoint to, you guessed it, grab metrics from your app. Fortunately, the basic integration is done in a few steps.","mainEntityOfPage":{"@type":"WebPage","@id":"https://thelitdeveloper.com/golang/2020/04/09/golang-service-w-prometheus.html"},"url":"https://thelitdeveloper.com/golang/2020/04/09/golang-service-w-prometheus.html","author":{"@type":"Person","name":"Stephan Schrader"},"headline":"Add Prometheus support to your Golang app","@type":"BlogPosting","dateModified":"2020-04-09T07:24:03+02:00","datePublished":"2020-04-09T07:24:03+02:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://thelitdeveloper.com/feed.xml" title="the lit developer" /></head>
 <body><header class="site-header" role="banner">
@@ -132,17 +133,16 @@ func main() {
       <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
           <!-- <ul class="contact-list">
-            <li class="p-name">the lit developer</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul> -->
+            <li class="p-name">{&quot;name&quot;=&gt;&quot;Stephan Schrader&quot;, &quot;email&quot;=&gt;&quot;schrader.tmp@gmail.com&quot;}</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul> -->
         </div>
   
         <div class="footer-col footer-col-2">
-          <!--<ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
--->
+          &nbsp;
         </div>
   
         <div class="footer-col footer-col-3">
-          <!-- <p># Write an awesome description for your new site here. You can edit this # line in _config.yml. It will appear in your document head meta (for # Google search results) and in your feed.xml site description.</p> -->
-        </div>
+          <!-- <p># Write an awesome description for your new site here. You can edit this # line in _config.yml. It will appear in your document head meta (for # Google search results) and in your feed.xml site description.</p> --><ul class="social-media-list"><li><a href="https://medium.com/@thelitdeveloper" target="_blank"> <!-- <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> --> <span class="username">Medium</span></a></li><li><a href="https://github.com/theLitDeveloper" target="_blank"> <!-- <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> --> <span class="username">Github</span></a></li><li><a href="https://www.youtube.com/channel/UC4DGalbFo87nP_LBl2WDhFQ" target="_blank"><!-- <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#youtube"></use></svg> --> <span class="username">Youtube</span></a></li><li><a href="https://dev.to/thelitdeveloper" target="_blank"> <!-- <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> --> <span class="username">DEV.to</span></a></li></ul>
+</div>
       </div>
   
     </div>
